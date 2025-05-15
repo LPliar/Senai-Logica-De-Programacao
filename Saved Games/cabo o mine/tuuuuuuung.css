@@ -1,0 +1,57 @@
+label{
+    text-align: center;
+    size: 800px;
+    
+}
+h2{
+    text-align: center;
+}
+form{
+    text-align: center; 
+    size: 800px;
+}
+input{
+    size: 800px;
+}
+body {
+    font-size: 24px; 
+    background-color: rgb(187, 187, 187);
+}
+form {
+    width: 50%; 
+    max-width: 600px;
+    margin: auto; 
+}
+input {
+    font-size: 24px; 
+    padding: 10px; 
+    width: 100%; 
+}
+input[type="submit"] {
+    font-size: 24px;
+    padding: 15px;
+    cursor: pointer;
+}
+::placeholder{
+    text-align: center;
+    color: rgb(88, 88, 88)  ;
+}
+hr{
+    width: 2;
+    height: 10px;
+    background-color: rgb(83, 83, 83);
+    border: 5px solid rgb(0, 0, 0);
+}
+.singup {
+    width: 300px; 
+    height: 200px; 
+    border: 3px solid black; 
+    background-color: lightgray; 
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 20px;
+    margin-left: 20%;
+    font-size: 20px; }
+    #ede{
+        background-color: white;
+    }

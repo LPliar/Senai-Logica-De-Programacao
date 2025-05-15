@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Neon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 255, 255); 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .quadro {
+            background-color: black; 
+            padding: 30px;
+            width: 400px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #ff0000, 0 0 40px #00ffea, 0 0 60px #e60808; 
+        }
+
+        h2 {
+            color: white;
+            text-shadow: 0 0 10px #ff4800, 0 0 20px #ff2828;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 18px;
+            border: 2px solid #ff0000;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            box-shadow: 0 0 10px #ff0000;
+        }
+
+        input::placeholder {
+            color: #ff0000;
+        }
+
+        input[type="submit"] {
+            background-color: #ff0000;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            padding: 12px;
+            box-shadow: 0 0 15px #00ffea, 0 0 30px #ff0000;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00ffea;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadro">
+        <h2>Cadastro Neon</h2>
+        <form action="processar_cadastro.php" method="post">
+            <input type="text" placeholder="Nome" name="nome" required><br>
+            <input type="email" placeholder="E-mail" name="email" required><br>
+            <input type="password" placeholder="Senha" name="senha" required><br>
+            <input type="date" value="dataaaa" id="ede">
+            <input type="submit" value="Cadastrar"> 
+            <input type="checkbox" name="interesse" id="espeorote" value="esporte">
+            <input type="radio" name="nomes">
+            <label for="nomes">MUHUUHUH</label>
+            <label for value="esporte" id="ide"> SA OQ SLA DO QUE</label>
+        </form>
+    </div>
+</body>
+</html>
